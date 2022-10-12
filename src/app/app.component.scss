@@ -1,27 +1,52 @@
-h1{ color: red;}
+h1 {
+  color: red;
+}
 
 .header {
-    padding: 60px;
-    text-align: center;
-    background: hsl(268, 88%, 42%);
-    color: white;
-    font-size: 30px;
-  }
+  padding: 60px;
+  text-align: center;
+  background: hsl(268, 88%, 42%);
+  color: white;
+  font-size: 30px;
+}
 
-  .mainBody {
-    max-width: 550px;
-    margin: auto;
-    text-align: center; 
-    font-size: large;
-  }
-  
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
-  }
-  .content {padding:20px;}  
+.mainBody {
+  max-width: 550px;
+  margin: auto;
+  text-align: center;
+  font-size: large;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 25em;
+  padding: 0;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+li {
+  float: left
+}
+
+a {
+  display: block;
+  padding: 8px;
+}
